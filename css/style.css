@@ -1,0 +1,163 @@
+* {box-sizing: border-box;-moz-box-sizing: border-box;margin: 0;padding: 0;-webkit-tap-highlight-color: transparent;
+zoom: 1;}
+html {font-size: 16px;min-height: 100%; }
+body {font: 75%/150% "Lato", Arial, Helvetica, sans-serif;background-color: #fff;color: #4a4a4a;
+overflow-x: hidden;-webkit-font-smoothing: antialiased;-ms-overflow-style: scrollbar;oveflow-y: scroll; }
+iframe, img {border: 0; }
+a {text-decoration: none;color: inherit; }
+a:hover, a:focus {color: #01b7f2;text-decoration: none; }
+a:focus {outline: none; }
+p {font-size: 1.0833em;line-height: 1.6666;margin-bottom: 15px; }
+dt {font-weight: normal; }
+span.active, a.active, h2.active, h3.active, h4.active, h5.active, h6.active {color: #01b7f2; }
+.info-primary, .info-success {color: #fff;padding: 2px 5px;line-height: 1em; }
+.info-success {background: #98ce44; }
+.info-primary {background: #2d3e52; }
+h1, h2, h3, h4, h5, h6 {margin: 0 0 15px;font-weight: normal;color: #2d3e52; }
+h1 {font-size: 2em;line-height: 1.25em;}
+h2 {font-size: 1.6667em;line-height: 1.25em;}
+h3 {font-size: 1.5em;line-height: 1.2222em;}
+h4 {font-size: 1.3333em;line-height: 1.25em;}
+h5 {font-size: 1.1666em;line-height: 1.1428em;}
+h6 {font-size: 1em; }
+ol, ul {list-style: none;margin: 0; }
+blockquote, q {quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none; }
+hr {margin-top: 20px;margin-bottom: 20px;border-color: #f5f5f5; }
+table {border-collapse: collapse;border-spacing: 0; } 
+.soap-icon-triangle-right:before {content: '\e885';display: none; }
+section#content {padding-top: 40px;text-align: left;background: #ddd;} 
+ul.check-square li:before {font-family: fontawesome;content: "\f00c";background: #d9d9d9;color: #fff;
+padding:2px;margin-right: 10px;font-size: 11px; }
+ul.check-square li.active {background: #01b7f2;color: #fff; }
+ul.check-square li.active > a {color: #fff; }
+ul.check-square li.active:before {background: #fff;color: #fdb714; } 
+.page-title-container {background: #103e63;color: #fff;}
+h2.entry-title {color: #fff;padding: 10px 0px 0px;}
+.toggle-container .panel {margin-bottom: 20px;box-shadow: none;-webkit-border-radius: 0 0 0 0;
+-moz-border-radius: 0 0 0 0;-ms-border-radius: 0 0 0 0;border-radius: 0 0 0 0;border: none;
+border-bottom: 2px solid #f5f5f5;position: relative; }
+.toggle-container .panel:last-child {border: none; }
+.toggle-container .panel .panel-title {padding: 0;color: #2d3e52;font-size: 1.1667em;position: relative; }
+.toggle-container .panel .panel-title a {white-space: normal;display: block;padding: 15px; } 
+.toggle-container .panel h4.panel-title {font-size: 1.3333em; } 
+.toggle-container .panel.style1 .panel-title > a {line-height: 24px; } 
+.toggle-container .panel.style1 .panel-content {padding: 10px 15px 15px 55px; }
+.toggle-container .panel.style1.arrow-right .panel-title {position: relative; }
+.toggle-container .panel.style1.arrow-right .panel-title > a {padding-right: 36px; }
+.toggle-container .panel.style1.arrow-right .panel-content {padding: 10px 15px; }  
+.sort-by-section {background: #fff;padding: 0 0px; }
+.sort-by-section li {float: left;position: relative;padding: 0px 13px 0px;width: 25%;display: table-cell;   
+background: #ddd;cursor: pointer !important; }
+.sort-by-section .sort-by-title {margin: 15px 20px 0 0;line-height: 34px;float: left; }
+.sort-by-section .sort-bar {width: 100%;float: left;display: table-row; }
+.sort-by-section .sort-bar .sort-by-container {position: relative;display: block; }
+.sort-by-section .sort-bar .sort-by-container > span {background: #fff;height: 34px;padding: 0 45px 0 15px;
+line-height: 34px;display: block;color: #9e9e9e;text-align: center; }
+.sort-by-section .sort-bar .sort-by-container > span:after {position: absolute;right: 0;top: 0;bottom: 0;
+height: 100%;width: 30px;background: #e63a3f;content: ""; }
+.sort-by-section .sort-bar .sort-by-container:before, .sort-by-section .sort-bar .sort-by-container:after {
+  content: "";position: absolute;z-index: 1;display: block;top: 50%;right: 12px;border-left: 0px solid transparent !important; 
+border-right: 0px solid transparent !important;}
+.sort-by-section .sort-bar .sort-by-container:before {margin-top: -6px;border-bottom: 5px solid #fff; }
+.sort-by-section .sort-bar .sort-by-container:after {margin-top: 2px;border-top: 0px !important;}
+.sort-by-section .sort-bar li.active .sort-by-container > span:after {background: #e63a3f; }
+.sort-by-section .swap-tiles {float: right;font-size: 33px; }
+.sort-by-section .swap-tiles li > a > i {display: block;width: 34px;line-height: 34px;height: 34px;background: #f5f5f5;
+color: #d9d9d9;text-align: center; }
+.sort-by-section .swap-tiles li:hover > a > i, .sort-by-section .swap-tiles li.active > a > i {background: #01b7f2;
+color: #fff; }
+.sort-by-section .swap-tiles li.swap-list > a > i {font-size: 30px; }
+.flight-list.listing-style3.flight .box {position:relative;}
+.baggage_val * {font-size:11px;padding:4px 0 !important;}
+.multistop-baggage-rule-refund-content .baggage_val:before{left: unset;right: 87px;}
+.listing-style3.flight .stop:hover {background: #e63a3f;}
+.flight-requirement {margin: 0 0px 19px;padding: 10px 0px;}
+#preloader {position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: #fff;z-index: 99;}
+#status {width: 200px;height: 200px;position: absolute;left: calc(50% - 100px);top: 0;text-align: center;background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);background-repeat: no-repeat;background-position: center;margin: 0;z-index: 9999;}
+.totalFlightsInformation{position: relative;}
+.listing-style3 .box{margin-top: 5px !important;}
+.Oneway_box {box-shadow: 0 0px 0px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);}
+.box{margin-bottom:6px !important;}
+.flight-req {background: #fff;text-align: center;padding: 5px 0;}
+.flight-req label {display: block;}
+label.fl-value {color: #000;font-size: 15px;}
+.type_1 .flight-req-div{width:16.66%;}
+.type_2 .flight-req-div{width:14.25%;}
+.flight-req-div {float: left; padding: 0 15px;} 
+.baggage_info_div {display: none;position: absolute;z-index: 999;box-shadow: 0px 0px 5px #000000;background: #ffffff;top: 45px;width: 280px;text-align: center;}
+.baggage_val table {margin: 0 auto;text-align: center;width: 100%;}
+.baggage_val table th, .baggage_val table td {display: table-cell;padding: 0 5px;text-align: center;border:1px solid #e63a3f;}
+.baggage_val table th {font-weight: 600;color: #000;}
+.baggage_val {position: relative;padding: 8px;}
+.baggage_val:before {content: "\f0d8";position: absolute;top: -14px;left: 7px;font-family: fontawesome;color: #888;font-size: 25px;text-shadow: 0px 0px 5px #fff;}
+.baggage_icon:hover+.baggage_info_div {display: block;}
+.fare_icon{cursor: pointer;}
+.search_bag_rule_refund{float: right;}
+li.sort-by-x.active.descend:after {content: "\f0d7";top: 9px;right: 23px;color: #fff;position: absolute;font-size: 15px;font-family: fontawesome;}
+li.sort-by-x.active.ascend:after {content: "\f0d8";top: 9px;right: 23px;color: #fff;position: absolute;font-size: 15px;font-family: fontawesome;}
+.sort-by-section.clearfix.box {margin: 0 -12px;}
+.oneway-loop {background: #fff;margin: 0 0 15px 0;padding: 5px 10px;color: #666 !important;font-weight: 600;
+box-shadow: 0 0px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);}
+.oneway-loop-container {display: table;width: 100%;vertical-align: middle;}
+.oneway-flight-information {width: 85%;display: table-cell;vertical-align: middle;}
+.oneway-flight-loop {clear: both;display: inline-table;width: 100%;padding: 5px 0px;vertical-align: middle;}
+.flight-name-number-sec {width: 20%;display: table-cell;vertical-align: middle;}
+.oneway-journey-travel-info {width: 45%;display: table-cell;}
+.flightFromToTimeLoop0 {clear: both;}
+.flightFromToTimeLoop0 .flightFromTime_text .fromTime, .flightFromToTimeLoop0 .flightFromTime_text .toTime {width: auto;float: none;font-style: normal;
+font-size: 19px;display: block;font-weight: 600;color: rgba(0,0,0,.87);text-align: center;}
+.flightFromToTimeLoop0 p {float: left;margin: 0;padding: 0 12px 0 0;line-height: 35px;}
+.oneway-duration-seats-stops {width: 18%;display: table-cell;vertical-align: middle;}
+.oneway-journey-flight-duration {text-align: center;}
+.oneway-journey-flight-duration p {display: inline-block;margin: 0;padding: 0;}
+.oneway-journey-flight-duration p.oneway-flight-stops {color: #e6343a;font-style: italic;font-weight: 500;
+font-size: 11px;margin: 2px 0 0 8px;}
+.oneway-journey-flight-duration p.oneway-flight-seats {display: block !important;font-size: 12px;color: #666;
+font-weight: 500;margin: -5px 0 0 0;}
+.oneway-journey-flight-duration p {display: inline-block;}
+.oneway-price-div {display: block !important;text-align: center;}
+.oneway-baggage-rule-refund .search_bag_rule_refund {float: none;text-align: center;position: relative;
+vertical-align: -webkit-baseline-middle;}
+.oneway-baggage-rule-refund .search_bag_rule_refund i {width: 30px;height: 30px;border: 1px solid #aaa;
+border-radius: 50%;line-height: 30px;font-size: 16px;color: #828282;}
+.oneway-price-and-book {width: 15%;display: table-cell;vertical-align: middle;border-left: 1px solid #ddd;}
+.oneway-book-div .btn {background: #103e63;border: none;border-radius: 0;margin: 0 auto;display: block;
+width: 80px;font-size: 10px;letter-spacing: 0.5px;text-transform: uppercase;height: 25px;padding: 0;line-height: 24px;}
+.flightFromToTimeLoop0 .flightFromTime_text .fromDate, .flightFromToTimeLoop0 .flightFromTime_text .toDate {width: auto;float: none;font-style: normal;
+font-size: 12px;line-height: 10px;display: block;font-weight: 400;color: rgba(0,0,0,.5);text-align: center;}
+.flightFromToTimeLoop0 p.flightrightArrow {margin: 0;font-size: 25px;line-height: 22px;width: 100px;text-align: center;
+position: relative;padding-right: 0px;}
+.listing-style3.flight .box{padding: 7px 10px 7px !important;}
+.flightFromToTimeLoop0 p.flightrightArrow span i {position: relative;top: 7px;color: red;}
+.flightFromToTimeLoop0 p.flightrightArrow span i {position: relative;top: 4px;color: #949494;font-size: 30px;}
+.flightFromToTimeLoop0 p.flightrightArrow span.right-arrows.r002{float: right;right: 18px;position: relative;
+top:-2px;}
+.flightFromToTimeLoop0 p.flightrightArrow span.FlightNumClass0 {position: absolute;font-size: 10px;top: 0px;
+  left: -5px;right: 0;text-align: center;}
+.sort-by-section .sort-bar li.sort-by-container > span:after{background: #e63a3f !important;}
+p.price-offered {margin: 0;padding: 0;font-size: 16px;color: #e63a3f;}
+.oneway-book-div {margin: 0px 0px 5px;}
+.sort-by-section .sort-bar li .sort-by-container > span:after {background: #a0a0a0;}
+li.sort-by-x a:after, li.sort-by-x a:before {content: none;}
+li.sort-by-x a:after, li.sort-by-x a:before {right: 10px !important; top:20px !important; color: #ffffff;font-size: 15px !important;font-family: fontawesome;position: absolute;border: none !important;padding: 0 !important;z-index: 9999; left: unset !important;bottom: unset !important;border: none !important;}
+li.sort-by-x a:before {content: "\f0d7" !important;top: 20px !important;}
+li.sort-by-x a:after {content: "\f0d8" !important;top: 0 !important;}
+li.sort-by-x.active a:after, li.sort-by-x.active a:before {content: none !important;}
+.filters-container ul.filters-option {margin-bottom: 0px !important;}
+.filters-container ul.filters-option li {margin-bottom: 15px !important; cursor: pointer !important;background: #fff !important;padding: 0 !important;}
+.filters-container ul.filters-option li.active {background: #fff !important;}
+.filters-container ul.filters-option li a {text-transform: initial !important;font-size: 12px;color: #555;font-weight: 600;padding: 1px 0px !important;}
+.filters-container ul.filters-option li.active a {color: #0b5fa3 !important;}
+.filters-container h4.panel-title { background: #ffffff;margin: 10px 0 0 0 !important;padding: 0px 0 0 0 !important;border: none !important;color: #000 !important;border-bottom: 1px solid #ddd !important;}
+.filters-container h4.panel-title a {color: #000 !important;}
+.filters-container h4.panel-title a:before {content: none !important;}
+.filters-container.toggle-container .panel.style1 .panel-content {padding: 10px 15px !important;}
+ul.check-square li:before {background: #999 !important; }
+ul.check-square li.active:before {background: #e63a3f !important;color: #ffffff;} 
+.filters-container ul.filters-option li:before{margin-top: 4px !important;}
+span.right-arrows.r002 :after {content: "_______";font-size: 25px;position: absolute;top: 6px;
+right: 0px;}
+span.right-arrows.r002:before {content: "\f0da";font-family: fontawesome;position: relative;top: 13px;
+left: 7px;font-size: 25px;z-index: 999;}
+span#filtertext {color: #e63a3f;font-weight: 600;font-size: 17px !important;}
